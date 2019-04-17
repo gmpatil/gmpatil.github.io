@@ -8,7 +8,7 @@ Java - Java EE - Python - C++ - Agile/Scrum Development
 
 ### Open Source and GitHub Projects
 2018:
-* [Self Driving Car Nano Degree Projects](https://github.com/gmpatil/sdcnd/): Projects done as part of Udacity's [Self Driving Car Nano Degree](https://confirm.udacity.com/PZWHTMAX), mainly using Python, Jupyter Notebook, Tensorflow, C++, and RoS.
+* [Self Driving Car Engineer Nanodegree Projects](https://github.com/gmpatil/sdcnd/): Projects done as part of Udacity's [Self Driving Car Engineer Nanodegree](https://confirm.udacity.com/PZWHTMAX), mainly using Python, Jupyter Notebook, Tensorflow, C++, and RoS.
     - [Finding Lane Lines on the Road](https://github.com/gmpatil/sdcnd/blob/master/term1/p01_laneLines/P1.ipynb): Detects lane lines in a image of a road. Python CV (Computer Vision), NumPy and Matplot libraries are used. Hough Lines and Canny Edge detection alogorithms (cv2 functions) are used.
     - [Traffic Sign Recognition Classifier](https://github.com/gmpatil/sdcnd/blob/master/term1/p02_trafficSign/Traffic_Sign_Classifier.ipynb): Train Deep Neural Network to detect traffic signs. LeNet model is used as base. Implemented using Tensorflow.
     - [Behavior Cloning](https://github.com/gmpatil/sdcnd/tree/master/term1/p03_behavioralCloning): Build and train convolution neural network (CNN) using good driving behavior data collected from the simulator, so that model drives the car around the track in the simulator. NVIDIA's CNN model is used as base and implemented using Keras APIs on top of Tensorflow.
