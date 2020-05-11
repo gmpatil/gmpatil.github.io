@@ -7,6 +7,11 @@ Java - Java EE - Python - C++ - Agile/Scrum Development
 
 
 ### Open Source and GitHub Projects
+2020:
+* [Data Streaming Nanodegree Projects](https://github.com/gmpatil/DataStreamingND/): Projects done as part of Udacity's [Data Streaming Nanodegree](https://confirm.udacity.com/RPGH6956), mainly using Apache Kafka, and Apache Spark.
+    - [Optimizing Public Transport](https://github.com/gmpatil/DataStreamingND/tree/master/Optimizing%20Public%20Transportation): Update in real-time status of metro trains across lines along with upto date passenger entry count at each station stops/turnstiles. APIs,components used are Kafka REST-Proxy for sendng weather updates, Kafka Connect to get lines and stations details, Faust and KSQL for Stream processing.
+    - [Sanfransisco Crime Statistics](https://github.com/gmpatil/DataStreamingND/tree/master/SF%20Crime%20Statistics): Get crime report data stream from Kafka Topic and gather real-time crime stats with Apache Sparck SQL using Windowing and Watermark query features.
+
 2018:
 * [Self Driving Car Engineer Nanodegree Projects](https://github.com/gmpatil/sdcnd/): Projects done as part of Udacity's [Self Driving Car Engineer Nanodegree](https://confirm.udacity.com/PZWHTMAX), mainly using Python, Jupyter Notebook, Tensorflow, C++, and RoS.
     - [Finding Lane Lines on the Road](https://github.com/gmpatil/sdcnd/blob/master/term1/p01_laneLines/P1.ipynb): Detects lane lines in a image of a road. Python CV (Computer Vision), NumPy and Matplot libraries are used. Hough Lines and Canny Edge detection alogorithms (cv2 functions) are used.
