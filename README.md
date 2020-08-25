@@ -3,11 +3,16 @@
 [http://gmpatil.github.io](http://gmpatil.github.io) 
 -->
 
-Java - Java EE - Python - C++ - Agile/Scrum Development
+Java - Java EE - Node.js - Python - Agile/Scrum Development
 
 
 ### Open Source and GitHub Projects
 2020:
+* [Cloud Developer Nanodegree Projects](https://github.com/gmpatil/cloud-dev-nd-monolith2microsvcs): Projects done as part of Udacity's [Cloud Developer Nanodegree](https://confirm.udacity.com/4P7DRVDQ), mainly using TypeScript, Node.js, Docker, Kubernetese, and Serverless framework. Used Travis CI/CD to trigger build for GitHub repository changes and publish built docker images directly to Docker Hub and then deploy to AWS EKS cluster.
+    - [Monolith to Microservices](https://github.com/gmpatil/cloud-dev-nd-monolith2microsvcs) Refactored monolith web app into front-end and two back-end REST API based microservices. Travis CI/CD build is triggered on Github changes, docker images are built for all microservices and published to DockerHub, and images are deployed to AWS EKS cluster.  
+    - [Todo List - Serverless App](https://github.com/gmpatil/cloud-dev-nd-serverless) Todo App back-end entirely built using Node.js Lambda functions and [Serverless framework](https://www.serverless.com/). Dynamodb, and S3 Buckets are used in this project.
+    - [U Cart - Serverless App](https://github.com/gmpatil/cloud-dev-u-cart) Online multi-tenent Stores back-end REST services implemented using Node.js Lambda functions and Serverless framework. Auth0 is used Authenticate and manage user's Roles. 
+
 * [Data Streaming Nanodegree Projects](https://github.com/gmpatil/DataStreamingND/): Projects done as part of Udacity's [Data Streaming Nanodegree](https://confirm.udacity.com/RPGH6956), mainly using Apache Kafka, and Apache Spark.
     - [Optimizing Public Transport](https://github.com/gmpatil/DataStreamingND/tree/master/Optimizing%20Public%20Transportation): Update in real-time status of metro trains across lines along with upto date passenger entry count at each station stops/turnstiles. APIs,components used are Kafka REST-Proxy for sendng weather updates, Kafka Connect to get lines and stations details, Faust and KSQL for Stream processing.
     - [Sanfransisco Crime Statistics](https://github.com/gmpatil/DataStreamingND/tree/master/SF%20Crime%20Statistics): Get crime report data stream from Kafka Topic and gather real-time crime stats with Apache Sparck SQL using Windowing and Watermark query features.
